@@ -1,0 +1,125 @@
+
+
+body {
+    
+    font-family: FF-Meta-Serif-web-pro, serif;
+    color:white;
+    background-color: black;
+    background-repeat: no-repeat;
+    width: 100%;
+    
+}
+
+.poem {
+    box-shadow: inset 20%; 
+    inset: 30px 0 60px #f0f;
+    inset: -30px 0 60px #f0f;
+    animation-name: lights;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes lights {
+    from {box-shadow: inset 1%; 
+        box-shadow:
+        inset 30px 0 60px #f0f,
+        inset -30px 0 60px #f0f;}
+    to {box-shadow: inset 1%; 
+        box-shadow:
+        inset 30px 0 60px rgb(68, 0, 255),
+        inset -30px 0 60px rgb(68, 0, 255);}
+}
+
+
+h1 {
+    font-size: 48pt;
+    font-weight: 800;
+    font-style:normal
+}
+
+h2 {
+    font-size: 18pt;
+    font-weight: 700;
+    font-style:italic;
+    text-align:center
+}
+
+h3 {
+    font-size: 18pt;
+    font-weight: 600;
+    font-style:normal;
+    letter-spacing: 0.5em;
+    text-align:center;
+}
+
+h4 {
+    font-size: 12pt;
+    font-weight: 500;
+    font-style:normal;
+    text-indent: 1em;
+}
+
+p {
+    font-size: 12pt;
+    font-weight: 500;
+    font-style:normal;
+}
+
+header {
+    margin-top: 0%;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+subheader {
+    text-align: center;
+    font-weight: 500;
+    font-style: italic;
+}
+    
+.subhead2 {
+    padding-bottom: 2%;
+    text-align: center;
+    padding-left: 35%;
+}
+
+hr{
+    visibility: hidden;
+}
+
+
+.column1 {
+    float:left;
+    width: 40%;
+    line-height: 1200%;
+    text-align: right;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+.column2 {
+    float:left;
+    width: 20%;
+    padding-bottom: 5%;
+}
+
+.column3 {
+    float:right;
+    width: 35%;
+    line-height: 1200%;
+    text-align: left;
+    padding-bottom: 5%;
+}
+
+.row1 {
+    text-align: left;
+    text-indent: 1em;
+    column-count: 2;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
